@@ -2,6 +2,9 @@ import Navbar from "../components/Navbar";
 import MasterLife from "@/components/MasterLife";
 import EQbeatsIQ from "../components/EQbeatsIQ";
 import DoesThisSoundFamiliar from "../components/DoesThisSoundFamiliar";
+import MeetAheadCard from "@/components/MeetAheadCard";
+import SelfImprovement from "@/components/SelfImprovement";
+import BeBestYou from "../components/BeBestYou";
 
 
 
@@ -15,6 +18,12 @@ export default function Home() {
       <MasterLife/>
       <EQbeatsIQ />
       <DoesThisSoundFamiliar />
+      <MeetAheadCard/>
+      <SelfImprovement/>
+      <BeBestYou />
+
+
+
 
 
 

@@ -39,10 +39,7 @@ const MasterLife = () => {
                     </div>
                 </div>
                 <div className='basis-1/2 flex items-center justify-center w-full'>
-                    {/* <div className='flex items-center  justify-center bg-bgMobile h-60 w-60 rounded-full'> */}
                     <div className='h-64 w-64 flex items-center '><Image className='h-full w-full'height={100} width={100} src="/mobile.png" alt="" /></div>
-                    {/* </div> */}
-                    {/* dashed circular div */}
                     <motion.div
                         whileInView="visible"
                         viewport={{ once: true }}
