@@ -42,7 +42,7 @@ const DoesThisSoundsFamiliar = () => {
             hidden: { opacity: 0, scale: 0, x: "-50%" },
           }}
         >
-          <h1 className="text-6xl font-bold px-4 mb-5">
+          <h1 className="text-5xl font-bold px-4 mb-5">
             Does this sound familiar...
           </h1>
         </motion.div>
@@ -89,7 +89,7 @@ const DoesThisSoundsFamiliar = () => {
           </p>
         </div>
 
-        <div className="rounded-xl bg-yellow-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300  ease-in-out">
+        <div className="rounded-xl bg-yellow-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 -rotate-12 hover:duration-300  ease-in-out">
         <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
           <h3 className="font-bold text-lg ">You attend a class reunion</h3>
           <p className="text-gray-700">
